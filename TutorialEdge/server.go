@@ -5,7 +5,7 @@ import (
 	"net"
 
 	"google.golang.org/grpc"
-	"github.com/mosaibah/grpc_learning/chat"
+    "github.com/tutorialedge/go-grpc-beginners-tutorial/chat"
 )
 
 func main() {

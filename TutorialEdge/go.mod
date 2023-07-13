@@ -1,4 +1,4 @@
-module github.com/mosaibah/grpc_learning
+module github.com/tutorialedge/go-grpc-beginners-tutorial
 
 go 1.20
 
