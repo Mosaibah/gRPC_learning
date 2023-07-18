@@ -1,0 +1,21 @@
+syntax = "proto3";
+package sport;
+option go_package = "./sport";
+
+message TeamResponse {
+  int32 Id = 1;
+	string Name = 2;
+	string Team = 3;
+	string Sport = 4;
+}
+
+message TeamsResponse {
+  repeated TeamResponse teams = 1;
+}
+
+message AllTeamsRequest {}
+
+
+service SportService {
+  rpc GetAllTeams (AllTeamsRequest) returns (TeamsResponse) {}
+}
